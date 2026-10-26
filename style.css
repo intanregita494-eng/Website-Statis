@@ -1,0 +1,102 @@
+/*pengaturan umum */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+    color: black;
+}
+/*Header*/
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+header h1{
+    margin: 0 0 8px;
+}
+/*navbar*/
+nav {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 15px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+ /*konten utama*/
+ main{
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+ }
+ /*banner*/
+ .banner{
+    background-color: rgb(153, 152, 152);
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+ }
+
+ .tombol{
+    display: inline;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    
+ }
+ .tombol:hover{
+    background-color: blue;
+ }
+ /*daftar produk*/
+ .daftar-produk{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+ }
+ .produk{
+    background-color: rgb(153, 152, 152);
+    padding:45px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 8px grey;
+ }
+ .harga{
+    color: black;
+    font-weight: bold;
+ }
+ .produk button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .produk button:hover{
+    background-color: black;
+ }
+ /*Tentang dan Kontak*/
+ .tentang, .kontak{
+    background-color: rgb(153, 152, 152);
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+ }
+ /*footer*/
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 35px;
+ }
